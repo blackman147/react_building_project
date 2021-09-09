@@ -2,10 +2,12 @@ import React from 'react'
 
 const Pillar = () => {
     return (
-        <div>
+        <div className = "pillar">
+            pillar
             
         </div>
     )
 }
 
 export default Pillar
+ 

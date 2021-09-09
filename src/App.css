@@ -1,16 +1,71 @@
 .roof{
-
-  margin: 0% 3% 0% 4%;
-  width: 65%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
-  border-top: 100px solid transparent;
-  border-bottom: 140px solid ;
-  border-right: 200px solid transparent;
-  border-left: 200px solid transparent;
+  background-color: maroon;
+  width: 81.5vw;
+  height: 5vh;
+  margin: 0% 2% 0% 4%;
 }
 
 .land{
-  margin: 0% 3% 0% 3%;
+  background-color: "green";
+  width: 81.5;
+  height: "20px";
+  padding-top: "20px";
+  text-align: "center";
+  margin-top: "1px";
+  margin: 0% 2% 0% 4%;
+}
+
+.foundation{
+  display: flex;
+  width: 81.5vw;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 2% -2% 4%;
+}
+
+.room{
+  background-color: rgb(255, 253, 208);
+  width: 80vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 10px;
+  margin: 0% 3% 0% 4%;
+  
+}
+
+.room_pillar_container{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.pillar{
+  background-color: white;
+  height: 30vh;
+  padding: 10px 10px;
+}
+
+.balance{
+  position: relative;
+  bottom: 10%;
+  height: 50px;
+  padding: 10px;
+  background-color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  margin: 10px 0;
 }
